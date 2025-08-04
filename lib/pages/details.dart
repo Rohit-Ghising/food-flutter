@@ -2,7 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fooddeliveryapp/service/database.dart';
 import 'package:fooddeliveryapp/service/shared_pref.dart';
-import 'package:fooddeliveryapp/widget/widget_support.dart';
+
+import '../widget/widget_support.dart';
 
 class Details extends StatefulWidget {
   String image, name, detail, price;
