@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 
 import '../widget/widget_support.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:fooddeliveryapp/service/database.dart';
-import 'package:fooddeliveryapp/service/shared_pref.dart';
-import 'package:fooddeliveryapp/widget/app_constant.dart';
+import 'package:food_delivery/service/database.dart';
+import 'package:food_delivery/service/shared_pref.dart';
+import 'package:food_delivery/widget/app_constant.dart';
 
 import 'package:http/http.dart' as http;
 
@@ -41,6 +41,8 @@ class _WalletState extends State<Wallet> {
   }
 
   Map<String, dynamic>? paymentIntent;
+
+  get secretKey => null;
 
   @override
   Widget build(BuildContext context) {

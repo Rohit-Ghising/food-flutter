@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery/pages/bottomnav.dart';
 import 'package:food_delivery/pages/login.dart';
 
-import 'package:fooddeliveryapp/service/database.dart';
-import 'package:fooddeliveryapp/service/shared_pref.dart';
+import 'package:food_delivery/service/database.dart';
+import 'package:food_delivery/service/shared_pref.dart';
 
 import 'package:random_string/random_string.dart';
 import '../widget/widget_support.dart';
@@ -251,5 +251,4 @@ class _SignUpState extends State<SignUp> {
   }
 }
 
-class DatabaseMethods {
-}
+
